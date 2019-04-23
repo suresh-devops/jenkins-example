@@ -24,7 +24,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'maven-3.3.9') {
-                    sh 'mvn deploy'
+                    sh 'mvn package'
                 }
             }
         }
