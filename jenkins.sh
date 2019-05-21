@@ -1,0 +1,1 @@
+cp pom.xml /src/
